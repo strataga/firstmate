@@ -1,0 +1,45 @@
+schema: fm-bearings.v1
+home: fm-live-val.96NO33/home
+generated: "2026-07-11T18:00:00Z"
+prs: "not_requested (run: /bearings include PRs)"
+contributions: 
+  scope: owned contributions per home
+  known: 0
+  checked: 0
+  counts: 
+    captain: 0
+    fleet: 0
+    maintainer: 0
+    nobody: 0
+  complete: true
+  proven_clear: true
+  unmeasured_homes: 0
+  unreadable_records: 0
+  unmeasured: 0
+  stale_verdicts: 0
+  missing_verdicts: 0
+  captain_omitted: 0
+  captain: []
+in_flight: []
+secondmates: []
+secondmate_reconcile: []
+decisions_open: []
+landed: []
+gates[1]{id,title,blocked_by,reason,owner,filed}:
+  (main-inventory),in-flight backlog item has no child metadata,"-",main inventory,(main),null
+reports: []
+recorded_prs: []
+servers[2]{project,port,pid,uptime,dir}:
+  alpha,18923,57838,"14:54",/private/tmp/fm-live-val.96NO33/home/projects/alpha
+  gamma,3200,null,"-",/opt/gamma
+project_branches[2]{project,branch,clean}:
+  alpha,feature-alpha,false
+  beta,main,true
+omitted[7]{surface,reveal}:
+  backlog item bodies,"--fields bodies"
+  task paths,"--fields paths"
+  watch/steer actions,"--fields actions"
+  healthy endpoint detail,"--fields endpoints"
+  full scout-report inventory,"--all-reports"
+  "main in-flight backlog item(s) have no child metadata: 1",inspect main data/backlog.md In flight vs state/*.meta
+  live PR discovery + checks,"--include-prs"

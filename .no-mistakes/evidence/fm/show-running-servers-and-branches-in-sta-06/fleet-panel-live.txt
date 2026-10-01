@@ -1,0 +1,8 @@
+WIDGET-KEYS: firstmate-fleet-panel
+-----PANEL-TEXT-BEGIN-----
+## Fleet
+- **alpha** @ feature\-alpha dirty - [18923](http://localhost:18923) (pid 57838)
+- **beta** @ main
+- **gamma** - [3200](http://localhost:3200)
+-----PANEL-TEXT-END-----
+AFTER-HIDE-KEYS: 

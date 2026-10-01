@@ -1,0 +1,98 @@
+{
+  "schema": "fm-bearings.v1",
+  "home": "fm-live-val.96NO33/home",
+  "generated": "2026-07-11T18:00:00Z",
+  "prs": "not_requested (run: /bearings include PRs)",
+  "contributions": {
+    "scope": "owned contributions per home",
+    "known": 0,
+    "checked": 0,
+    "counts": {
+      "captain": 0,
+      "fleet": 0,
+      "maintainer": 0,
+      "nobody": 0
+    },
+    "complete": true,
+    "proven_clear": true,
+    "unmeasured_homes": 0,
+    "unreadable_records": 0,
+    "unmeasured": 0,
+    "stale_verdicts": 0,
+    "missing_verdicts": 0,
+    "captain_omitted": 0,
+    "captain": []
+  },
+  "in_flight": [],
+  "secondmates": [],
+  "secondmate_reconcile": [],
+  "decisions_open": [],
+  "landed": [],
+  "gates": [
+    {
+      "id": "(main-inventory)",
+      "title": "in-flight backlog item has no child metadata",
+      "blocked_by": "-",
+      "reason": "main inventory",
+      "owner": "(main)",
+      "filed": null
+    }
+  ],
+  "reports": [],
+  "recorded_prs": [],
+  "servers": [
+    {
+      "project": "gamma",
+      "port": 3200,
+      "pid": null,
+      "uptime": "-",
+      "dir": "/opt/gamma"
+    }
+  ],
+  "project_branches": [
+    {
+      "project": "alpha",
+      "branch": "feature-alpha",
+      "clean": false
+    },
+    {
+      "project": "beta",
+      "branch": "main",
+      "clean": true
+    }
+  ],
+  "omitted": [
+    {
+      "surface": "backlog item bodies",
+      "reveal": "--fields bodies"
+    },
+    {
+      "surface": "task paths",
+      "reveal": "--fields paths"
+    },
+    {
+      "surface": "watch/steer actions",
+      "reveal": "--fields actions"
+    },
+    {
+      "surface": "healthy endpoint detail",
+      "reveal": "--fields endpoints"
+    },
+    {
+      "surface": "full scout-report inventory",
+      "reveal": "--all-reports"
+    },
+    {
+      "surface": "main in-flight backlog item(s) have no child metadata: 1",
+      "reveal": "inspect main data/backlog.md In flight vs state/*.meta"
+    },
+    {
+      "surface": "listener table unavailable (lsof not found)",
+      "reveal": "install lsof for the listener table"
+    },
+    {
+      "surface": "live PR discovery + checks",
+      "reveal": "--include-prs"
+    }
+  ]
+}
